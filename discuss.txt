@@ -1,0 +1,9 @@
+
+
+1.what this program will do
+    Two plays 'X' and 'O' play tic-tac-toe on the 3*3 game board, which is a dynamically allocated two dimensions array.
+    The player 'X' will play first and then the player 'O', alternately. Once a player got three pieces in a line or the board is full, the game is over.
+
+2.discuss why you chose that and what your alternatives were!
+    I chose to use a two dimensions array, because it is easier to use. Board[i-1][j-1] represents just i row j column cell on the real game board.
+    Alternative: a 9 length one dimension array. Board[i] represents the i/3+1 row i%3+1 column cell on the real game board.
